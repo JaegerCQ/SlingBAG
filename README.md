@@ -8,3 +8,16 @@ conda create -n SlingBAG python=3.10.13
 conda activate SlingBAG
 
 conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
+
+pip install -r requirements.txt
+
+## Usage
+
+### Coarse reconstruction
+run train_196_elements_coarse_recon.ipynb
+
+### Fine reconstruction
+run train_196_elements_fine_recon.ipynb
+
+### Conversion from point cloud to voxel grid
+run point_cloud_to_voxel_grid_shader.ipynb
