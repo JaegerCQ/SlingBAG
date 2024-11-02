@@ -1,3 +1,5 @@
 numpy
 matplotlib
 ninja
+scipy
+taichi==1.2.2
