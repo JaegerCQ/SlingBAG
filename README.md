@@ -4,5 +4,7 @@ Large-scale photoacoustic (PA) 3D imaging has become increasingly important for 
 
 ## Installation
 conda create -n SlingBAG python=3.10.13
+
 conda activate SlingBAG
+
 conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
