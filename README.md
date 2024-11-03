@@ -29,7 +29,7 @@ cd SlingBAG
 ```
 
 ```bash
-conda create -n SlingBAG python=3.10.13
+conda create -n SlingBAG python=3.10 -y
 conda activate SlingBAG
 conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
 ```
@@ -49,6 +49,6 @@ Run `train_196_elements_fine_recon.ipynb`.
 ### Conversion from point cloud to voxel grid
 Run `point_cloud_to_voxel_grid_shader.ipynb`.
 
-
 ## Guidance
+
 The example in the provided codes is for the reconstruction of simulated hand vessel with 196 elements planar array (detailed in the article), if you want to reconstrut your own data, please replace the sensor location and sensor data files in the `train_196_elements_coarse_recon.ipynb` and `train_196_elements_fine_recon.ipynb`. Besides, the boundary set of the Gaussian balls should be modified carefully to match the reconstruction area. Sorry for all the inconvenience, we promise that the SlingBAG will soon be much more user-friendly, and we hope this guidance may help you. Good luck my friends!
