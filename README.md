@@ -8,19 +8,18 @@ If you have any questions while using SlingBAG for 3D reconstruction, please be 
 
 ## Article link
 
-[Sliding Gaussian ball adaptive growth: point cloud-based iterative algorithm for large-scale 3D photoacoustic imaging]
-(https://arxiv.org/abs/2407.11781)
+Arxiv: [https://arxiv.org/abs/2407.11781](https://arxiv.org/abs/2407.11781)
 
 ## Installation
 
 ```bash
-git clone https://github.com/JaegerCQ/SlingBAG.git    
+git clone https://github.com/JaegerCQ/SlingBAG.git
 cd SlingBAG
 ```
 
 ```bash
-conda create -n SlingBAG python=3.10.13  
-conda activate SlingBAG  
+conda create -n SlingBAG python=3.10.13
+conda activate SlingBAG
 conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
 ```
 
@@ -31,10 +30,10 @@ pip install -r requirements.txt
 ## Usage
 
 ### Coarse reconstruction
-run `train_196_elements_coarse_recon.ipynb`.
+Run `train_196_elements_coarse_recon.ipynb`.
 
 ### Fine reconstruction
-run `train_196_elements_fine_recon.ipynb`.
+Run `train_196_elements_fine_recon.ipynb`.
 
 ### Conversion from point cloud to voxel grid
-run `point_cloud_to_voxel_grid_shader.ipynb`.
+Run `point_cloud_to_voxel_grid_shader.ipynb`.
