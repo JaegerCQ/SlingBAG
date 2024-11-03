@@ -8,15 +8,16 @@ If you have any questions while using SlingBAG for 3D reconstruction, please be 
 
 ## Article link
 
-Arxiv: [https://arxiv.org/abs/2407.11781](https://arxiv.org/abs/2407.11781)
+ArXiv: [https://arxiv.org/abs/2407.11781](https://arxiv.org/abs/2407.11781)
 
 ## BibTeX
+
 ```
-@article{li2024slingbag,   
-  title={Sliding Gaussian ball adaptive growth (SlingBAG): point cloud-based iterative algorithm for large-scale 3D photoacoustic imaging},   
-  author={Li, Shuang and Wang, Yibing and Gao, Jian and Kim, Chulhong and Choi, Seongwook and Zhang, Yu and Chen, Qian and Yao, Yao and Li, Changhui},  
-  journal={arXiv preprint arXiv:2407.11781},   
-  year={2024}   
+@article{li2024slingbag,
+  title={Sliding Gaussian ball adaptive growth (SlingBAG): point cloud-based iterative algorithm for large-scale 3D photoacoustic imaging},
+  author={Li, Shuang and Wang, Yibing and Gao, Jian and Kim, Chulhong and Choi, Seongwook and Zhang, Yu and Chen, Qian and Yao, Yao and Li, Changhui},
+  journal={arXiv preprint arXiv:2407.11781},
+  year={2024}
 }
 ```
 
