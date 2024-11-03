@@ -1,5 +1,6 @@
-numpy
+jupyter
 matplotlib
 ninja
+numpy
 scipy
 taichi==1.2.2
