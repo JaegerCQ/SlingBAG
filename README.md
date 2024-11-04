@@ -38,7 +38,7 @@ conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvi
 pip install -r requirements.txt
 ```
 
-Tips: for Windows, it needs `setuptools <= 72.1.0`; for Linux, it needs `gcc >= 9.1`.
+Warning: for Windows, it needs `setuptools <= 72.1.0`; for Linux, it needs `gcc >= 9.1`.
 
 ## Usage
 
