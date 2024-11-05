@@ -10,6 +10,9 @@ _The overview framework of Sliding Gaussian Ball Adaptive Growth algorithm. (a) 
 ![image](https://github.com/JaegerCQ/SlingBAG/blob/main/figures/rat_liver_recon.gif) 
 _Comparison of reconstruction results of rat liver between UBP and SlingBAG._
 
+![image](https://github.com/JaegerCQ/SlingBAG/blob/main/figures/hand_vessel_recon.gif) 
+_Comparison of reconstruction results of hand vessels between UBP and SlingBAG using sparse 576 sensors._
+
 ## Attention!!!
 
 If you have any questions while using SlingBAG for 3D reconstruction, please be free to contact us. At present this Github program is still under construction, we will refine and complete it as soon as possible, sorry for the inconvenience. Best wishes!
