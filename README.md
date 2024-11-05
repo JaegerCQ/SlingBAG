@@ -5,6 +5,11 @@ Large-scale photoacoustic (PA) 3D imaging has become increasingly important for 
 ![image](https://github.com/JaegerCQ/SlingBAG/blob/main/figures/pipeline_gaussian.png)   
 _The overview framework of Sliding Gaussian Ball Adaptive Growth algorithm. (a) The SlingBAG pipeline. (b) The forward simulation of differentiable rapid radiator. (c) Adaptive growth optimization based on iterative point cloud._
 
+## Display of SlingBAG's results
+
+![image](https://github.com/JaegerCQ/SlingBAG/blob/main/figures/rat_liver_recon.gif) 
+_Comparison of reconstruction results of rat liver between UBP and SlingBAG._
+
 ## Attention!!!
 
 If you have any questions while using SlingBAG for 3D reconstruction, please be free to contact us. At present this Github program is still under construction, we will refine and complete it as soon as possible, sorry for the inconvenience. Best wishes!
