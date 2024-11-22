@@ -61,3 +61,7 @@ Run `point_cloud_to_voxel_grid_shader.ipynb`.
   year={2024}
 }
 ```
+## Ackonwledgement
+
+We are deeply grateful to Professor Chulhong Kim and Dr. Seongwook Choi for providing the invaluable in vivo experimental data.
+We are also grateful to the authors of 3D Gaussian Splatting for their great work as well as open source codes that inspire us a lot.
