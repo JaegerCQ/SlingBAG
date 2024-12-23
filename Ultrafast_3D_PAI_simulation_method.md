@@ -12,6 +12,8 @@ Additionally, users need to provide the following parameters (we haved provided 
 
 The generated simulation data will be saved in **`simulated_sensor_signal.txt`**. The library functions and environmental configuration required for running this code are identical to the ones used for the SlingBAG iterative reconstruction algorithm.
 
+We also present a demo that directly converts the 3D simulation photoacoustic source stored in a .mat file into the required .ply file format. The original .mat file is provided at `data/source.mat`, and the conversion code can be found in the main directory as `mat2ply.m`. This code reads the 3D volume, centers it in the world coordinate system, and converts all points with values greater than 0 into point cloud data for storage. Additionally, the code calculates the coordinate values based on the physical spacing represented by the user-defined unit grid (default physical spacing of the unit grid: 0.1mm). The final result is saved in the file `data/phantom_for_simulation.ply`.
+
 ---
 
 **Example Data Input Description:**  
