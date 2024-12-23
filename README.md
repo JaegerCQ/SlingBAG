@@ -6,8 +6,9 @@ Large-scale 3D photoacoustic (PA) imaging has become increasingly important for 
 
 As a by-product of our research on SlingBAG, we developed a novel approach: utilizing the forward process of SlingBAG as a fast method to generate simulated photoacoustic data.     
 The detailed usage guidance for simulation can be found here:         
-[***Ultrafast Simulation Method for 3D Photoacoustic Imaging***](https://github.com/JaegerCQ/SlingBAG/blob/main/Ultrafast_3D_PAI_simulation_method.md)
-If you find this simulation tool useful and want to use it for simulation or just as a forward model in reconstruction algorithms, you can simply cite our article "Sliding Gaussian ball adaptive growth: point cloud-based iterative algorithm for large-scale 3D photoacoustic imaging", thanks!
+[***Ultrafast Simulation Method for 3D Photoacoustic Imaging***](https://github.com/JaegerCQ/SlingBAG/blob/main/Ultrafast_3D_PAI_simulation_method.md)    
+If you find this simulation tool useful and want to use it for simulation or just as a forward model in reconstruction algorithms, you can simply cite our article "Sliding Gaussian ball adaptive growth: point cloud-based iterative algorithm for large-scale 3D photoacoustic imaging", thanks!         
+      
 
 
 ![image](https://github.com/JaegerCQ/SlingBAG/blob/main/figures/pipeline_gaussian.png)   
