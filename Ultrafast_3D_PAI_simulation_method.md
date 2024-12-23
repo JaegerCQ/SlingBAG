@@ -7,7 +7,7 @@ As a by-product of our research on SlingBAG, we developed a novel approach: util
 
 Additionally, users need to provide the following parameters (we haved provided the default value in the code):
 - **`num_times`**: Number of signal sampling points for a single detector,  
-- **`dt`**: Time interval between sampling points (i.e., the inverse of the DAQ sampling frequency),  
+- **`dt`**: Time interval between sampling points (default: 25e-9, i.e., the inverse of the DAQ sampling frequency, 40MHz),  
 - **`Vs`**: The speed of sound (default: 1500 m/s).  
 
 The generated simulation data will be saved in **`simulated_sensor_signal.txt`**. The library functions and environmental configuration required for running this code are identical to the ones used for the SlingBAG iterative reconstruction algorithm.
