@@ -1,4 +1,4 @@
-**Ultrafast 3D Simulation Method for Photoacoustic Imaging**  
+**Ultrafast Simulation Method for 3D Photoacoustic Imaging**  
 This simulation method completes in mere seconds what k-Wave requires tens of hours to compute, while reducing memory consumption by orders of magnitude. The simulation results achieve a similarity of over 99.9% with those generated using k-Wave.
 
 As a by-product of our research on SlingBAG, we developed a novel approach: utilizing the **forward process of SlingBAG** as a fast method to generate simulated photoacoustic data. In this approach, users can generate simulation results rapidly by using the provided **`SlingBAG_forward_simulation.ipynb`** script. This script takes two primary input files:
