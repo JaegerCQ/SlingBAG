@@ -4,8 +4,9 @@
 
 Large-scale 3D photoacoustic (PA) imaging has become increasingly important for both clinical and pre-clinical applications. Limited by cost and system complexity, only systems with sparsely-distributed sensors can be widely implemented, which desires advanced reconstruction algorithms to reduce artifacts. However, high computing memory and time consumption of traditional iterative reconstruction (IR) algorithms is practically unacceptable for large-scale 3D PA imaging. Here, we propose a point cloud-based IR algorithm that reduces memory consumption by several orders, wherein the 3D PA scene is modeled as a series of Gaussian-distributed spherical sources stored in form of point cloud. During the IR process, not only are properties of each Gaussian source, including its peak intensity (initial pressure value), standard deviation (size) and mean (position) continuously optimized, but also each Gaussian source itself adaptively undergoes destroying, splitting, and duplication along the gradient direction. This method, named the sliding Gaussian ball adaptive growth (SlingBAG) algorithm, enables high-quality large-scale 3D PA reconstruction with fast iteration and extremely low memory usage. We validated SlingBAG algorithm in both simulation study and in vivo animal experiments.  
 
-As a by-product of our research on SlingBAG, we developed a novel approach: utilizing the forward process of SlingBAG as a fast method to generate simulated photoacoustic data. The detailed usage guidance for simulation canbe found here:
-[***Ultrafast Simulation Method for 3D Photoacoustic Imaging***]([https://arxiv.org/abs/2407.11781](https://github.com/JaegerCQ/SlingBAG/blob/main/Ultrafast_3D_PAI_simulation_method.md))
+As a by-product of our research on SlingBAG, we developed a novel approach: utilizing the forward process of SlingBAG as a fast method to generate simulated photoacoustic data.     
+The detailed usage guidance for simulation canbe found here:         
+[***Ultrafast Simulation Method for 3D Photoacoustic Imaging***](https://github.com/JaegerCQ/SlingBAG/blob/main/Ultrafast_3D_PAI_simulation_method.md)
 
 
 ![image](https://github.com/JaegerCQ/SlingBAG/blob/main/figures/pipeline_gaussian.png)   
