@@ -16,7 +16,7 @@ We also present a demo that directly converts the 3D simulation photoacoustic so
 
 ---
 
-**Example Data Input Description:**  
+**Example Data Input and Simulation output Description:**  
 1. **`data/sensor_location_for_simulation.txt`**:   
 This file is a (1013, 3) two-dimensional array, representing 1013 detectors in the array. Each row contains the three-dimensional coordinates of a detector (unit: meters).  
 
@@ -27,7 +27,10 @@ This file contains 21,744 elements, representing the photoacoustic point sources
    - The **first three attributes** are the three-dimensional coordinates of the point source (in meters).  
    - The **fourth attribute** is the photoacoustic pressure.  
    - The **fifth attribute** is the resolution, which corresponds to the point spread function (PSF). This is analogous to the grid resolution setting in k-Wave's simulation process (unit: meters).  
-![image](https://github.com/JaegerCQ/SlingBAG/blob/main/figures/ply_show.png)  
+![image](https://github.com/JaegerCQ/SlingBAG/blob/main/figures/ply_show.png)
+
+3. **`simulated_sensor_signal.txt`**:  
+This file is the output result of the simulation. In the given example, the output result is a 2D array of size (1013, 4096), where 1013 represents the data from 1013 probe channels, and each channel contains 4096 sampling points. The output data corresponds one-to-one with the probe coordinates. Users can modify the saved output format as needed, such as saving it in `.txt`, `.dat`, or `.mat` file formats.
 ---
 
 The detector and point source coordinates are both defined in the global/world coordinate system. This ultrafast simulation method may provide a convenient and efficient approach for generating high-quality photoacoustic simulation data, if you have any questions while using it, please be free to tell us, thanks for your feedback!
