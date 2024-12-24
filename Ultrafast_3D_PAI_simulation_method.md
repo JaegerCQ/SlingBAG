@@ -22,8 +22,8 @@ This file is a (1013, 3) two-dimensional array, representing 1013 detectors in t
 
 ![image](https://github.com/JaegerCQ/SlingBAG/blob/main/figures/location_show.png)  
 
-2. **`data/phantom_for_simulation.ply`**:  
-(Users can use `mat2ply.m` in the main directory to directly convert the 3D simulation photoacoustic source stored in a .mat file into the required .ply file format.)
+2. **`data/phantom_for_simulation.ply`**:    
+(Users can use `mat2ply.m` in the main directory to directly convert the 3D simulation photoacoustic source stored in a .mat file into the required .ply file format.)       
 This file contains 21,744 elements, representing the photoacoustic point sources in the simulated scene. Each element has 5 attributes:
    - The **first three attributes** are the three-dimensional coordinates of the point source (in meters).  
    - The **fourth attribute** is the photoacoustic pressure.  
