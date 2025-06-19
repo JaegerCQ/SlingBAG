@@ -58,6 +58,9 @@ Run `train_196_elements_fine_recon.ipynb`.
 ### Conversion from point cloud to voxel grid
 Run `point_cloud_to_voxel_grid_shader.ipynb`.
 
+## Tips
+'utils/differentiable_rapid_raditor_kernel_v4_fine.cu' is the latest version of the CUDA kernel for the fine reconstruction stage. Compared to 'utils/differentiable_rapid_raditor_kernel_v3_fine.cu', it incorporates shared memory access, optimizes computational efficiency, and accelerates the reconstruction process. In 'train_196_elements_fine_recon.ipynb', simply replace 'utils/differentiable_rapid_raditor_kernel_v3_fine.cu' with 'utils/differentiable_rapid_raditor_kernel_v4_fine.cu' to use the updated version.
+
 ## BibTeX
 
 ```
