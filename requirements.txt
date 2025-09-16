@@ -3,4 +3,5 @@ matplotlib
 ninja
 numpy
 scipy
+tqdm
 taichi==1.2.2
