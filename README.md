@@ -1,5 +1,7 @@
 # Sliding Gaussian ball adaptive growth: point cloud-based iterative algorithm for large-scale 3D photoacoustic imaging
 
+[***Nature Communications***](https://www.nature.com/articles/s41467-025-66855-w)
+
 [***ArXiv paper***](https://arxiv.org/abs/2407.11781)
 
 Large-scale 3D photoacoustic (PA) imaging has become increasingly important for both clinical and pre-clinical applications. Limited by cost and system complexity, only systems with sparsely-distributed sensors can be widely implemented, which desires advanced reconstruction algorithms to reduce artifacts. However, high computing memory and time consumption of traditional iterative reconstruction (IR) algorithms is practically unacceptable for large-scale 3D PA imaging. Here, we propose a point cloud-based IR algorithm that reduces memory consumption by several orders, wherein the 3D PA scene is modeled as a series of Gaussian-distributed spherical sources stored in form of point cloud. During the IR process, not only are properties of each Gaussian source, including its peak intensity (initial pressure value), standard deviation (size) and mean (position) continuously optimized, but also each Gaussian source itself adaptively undergoes destroying, splitting, and duplication along the gradient direction. This method, named the sliding Gaussian ball adaptive growth (SlingBAG) algorithm, enables high-quality large-scale 3D PA reconstruction with fast iteration and extremely low memory usage. We validated SlingBAG algorithm in both simulation study and in vivo animal experiments.  
@@ -64,11 +66,12 @@ Run `point_cloud_to_voxel_grid_shader.ipynb`.
 ## BibTeX
 
 ```
-@article{li2024slingbag,
-  title={Sliding Gaussian ball adaptive growth (SlingBAG): point cloud-based iterative algorithm for large-scale 3D photoacoustic imaging},
-  author={Li, Shuang and Wang, Yibing and Gao, Jian and Kim, Chulhong and Choi, Seongwook and Zhang, Yu and Chen, Qian and Yao, Yao and Li, Changhui},
-  journal={arXiv preprint arXiv:2407.11781},
-  year={2024}
+@article{li2025slingbag,    
+  title={SlingBAG: point cloud-based iterative algorithm for large-scale 3D photoacoustic imaging},    
+  author={Li, Shuang and Wang, Yibing and Gao, Jian and Kim, Chulhong and Choi, Seongwook and Zhang, Yu and Chen, Qian and Yao, Yao and Li, Changhui},    
+  journal={Nature Communications},    
+  year={2025},    
+  publisher={Nature Publishing Group UK London}    
 }
 ```
 ## Ackonwledgement
